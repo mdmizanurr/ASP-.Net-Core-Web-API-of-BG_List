@@ -14,7 +14,6 @@ namespace MyBGList.Models
 
         [Required]
         public DateTime CreatedDate { get; set; }
-
         public BoardGame? BoardGame { get; set; }
         public Mechanic? Mechanic { get; set; }
 
