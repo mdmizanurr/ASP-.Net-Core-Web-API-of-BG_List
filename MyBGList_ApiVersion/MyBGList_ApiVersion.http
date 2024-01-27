@@ -1,0 +1,6 @@
+@MyBGList_ApiVersion_HostAddress = http://localhost:5247
+
+GET {{MyBGList_ApiVersion_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

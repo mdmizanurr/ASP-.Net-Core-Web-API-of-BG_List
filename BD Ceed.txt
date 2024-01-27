@@ -1,0 +1,5 @@
+
+	
+		DB: MyBGList
+		User: MyBGList
+		Pass: MyS3cretP4$$ 

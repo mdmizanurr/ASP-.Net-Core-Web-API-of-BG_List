@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBGList", "MyBGList\MyBGList.csproj", "{FDF7C675-6F42-472B-AE46-E1A46D42AF86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBGList_ApiVersion", "MyBGList_ApiVersion\MyBGList_ApiVersion.csproj", "{F400B48C-F59F-4CAB-9774-ABF617954843}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDF7C675-6F42-472B-AE46-E1A46D42AF86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF7C675-6F42-472B-AE46-E1A46D42AF86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF7C675-6F42-472B-AE46-E1A46D42AF86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF7C675-6F42-472B-AE46-E1A46D42AF86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F400B48C-F59F-4CAB-9774-ABF617954843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F400B48C-F59F-4CAB-9774-ABF617954843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F400B48C-F59F-4CAB-9774-ABF617954843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F400B48C-F59F-4CAB-9774-ABF617954843}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2BDEED4-9608-4AA2-A5DC-FA6F1D58794F}
+	EndGlobalSection
+EndGlobal
