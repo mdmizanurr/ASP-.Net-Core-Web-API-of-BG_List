@@ -46,8 +46,8 @@ namespace MyBGList.Models
         public DbSet<Mechanic> Mechanics => Set<Mechanic>();
         public DbSet<BoardGames_Domains> BoardGames_Domains
             => Set<BoardGames_Domains>();
-        public DbSet<BoardGames_Domains> BoardGames_Mechanics
-            => Set<BoardGames_Domains>();
+        public DbSet<BoardGames_Mechanics> BoardGames_Mechanics
+            => Set<BoardGames_Mechanics>();
 
     }
 }
