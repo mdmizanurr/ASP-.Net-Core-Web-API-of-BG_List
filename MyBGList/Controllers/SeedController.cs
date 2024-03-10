@@ -58,7 +58,7 @@ namespace MyBGList.Controllers
 
                 var boardgame = new BoardGame()
                 {
-                    //Id = record.ID.Value,
+                    Id = record.ID.Value,
                     Name = record.Name,
                     BGGRank = record.BGGRank ?? 0,
                     ComplexityAverage = record.ComplexityAverage ?? 0,
@@ -127,7 +127,13 @@ namespace MyBGList.Controllers
                 // End foreach()
             }
 
+            // Save
+            using var transaction = _context.Database.BeginTransaction();
+            _context.Database.ExecuteSqlRaw("SET IDENTITY_INSERT BoardGames ON");
             await _context.SaveChangesAsync();
+            _context.Database.ExecuteSqlRaw("SET IDENTITY_INSERT BoardGames OFF");
+            transaction.Commit();
+
 
             return new JsonResult(new
             {
